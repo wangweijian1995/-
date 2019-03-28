@@ -15,11 +15,21 @@
 将趋势可视化时，主要考虑图表是否能够很好的展示年份和温度移动平均值的趋势关系。
 >扩展知识
 一次性将两个数据都提取到一个表格的方法示例：
+
 SELECT c.year, c.avg_temp as city_temp, g.avg_temp as global_temp
 FROM city_data c, global_data g
 WHERE c.year = g.year
 AND c.city = 'Shanghai';
->
+>扩展知识
+现在我们使用的只是 Excel 等软件手动计算移动平均值，在学习后续课程的 Python 知识后，可以使用 pandas 库的 rolling 函数在代码中进行计算，获取移动平均值。
+
+>建议
+当坐标轴代表的数据有具体的计量单位时，需要将计量单位标记出来，虽然我们国内基本上统一使用摄氏度，但是严谨来说还存在一个比较常用的单位：华氏度，所以标记出来比较好：温度 ℃
+折线图的纵轴的值域（上海是 14-17.5，跨度为 3.5℃；全球是 0-10，跨度为 10℃）和纵轴单位区间（上海为 0.5℃一格，全球为 1℃ 一格）都不统一，这样的对比会比较难以直观得出准确的观察结论，建议统一处理，或者放在一个坐标轴下进行对比
+![image.png](https://upload-images.jianshu.io/upload_images/5392836-fc58b9332eb509a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>建议
+计算相关系数，需要使用原始数据进行计算，而不是移动平滑后的数据。同学可以尝试一下计算原始数据、5年移动平均值、10年移动平均值版本的相关系数，会发现随着 N 取值的增加，相关系数会越大。最原始的数据得出的才是更为准确的相关系数。
+
 **线图：选取了相同年份的数据：**
 
 ![image.png](https://upload-images.jianshu.io/upload_images/5392836-7b195016d598ba2b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
