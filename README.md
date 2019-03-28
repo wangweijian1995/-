@@ -13,7 +13,13 @@
 5. 在决定如何将趋势可视化时，你考虑的关键是什么？
 
 将趋势可视化时，主要考虑图表是否能够很好的展示年份和温度移动平均值的趋势关系。
-
+>扩展知识
+一次性将两个数据都提取到一个表格的方法示例：
+SELECT c.year, c.avg_temp as city_temp, g.avg_temp as global_temp
+FROM city_data c, global_data g
+WHERE c.year = g.year
+AND c.city = 'Shanghai';
+>
 **线图：选取了相同年份的数据：**
 
 ![image.png](https://upload-images.jianshu.io/upload_images/5392836-7b195016d598ba2b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
