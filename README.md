@@ -2,15 +2,15 @@
 
 **步骤：**
 
-1.用 SQL 语句搜了上海，city_list 表中有这个城市  SELECT * FROM city_list  WHERE city = 'Shanghai';
+1. 用 SQL 语句搜了上海，city_list 表中有这个城市  SELECT * FROM city_list  WHERE city = 'Shanghai';
 
-2.用 SQL 语句取 city_data 表中的年平均气温，并下载 CSV 文件  SELECT * FROM city_data  WHERE city = 'Shanghai';
+2. 用 SQL 语句取 city_data 表中的年平均气温，并下载 CSV 文件  SELECT * FROM city_data  WHERE city = 'Shanghai';
 
-3.用 SQL 语句取 global_data 表中的年平均气温，并下载 CSV 文件  SELECT * FROM global_data；
+3. 用 SQL 语句取 global_data 表中的年平均气温，并下载 CSV 文件  SELECT * FROM global_data；
 
-4.用 EXCEL 打开 CSV 文件并计算七年的移动平均值：以七年为单位，计算每一年与前六年的平均温度的平均值。
+4. 用 EXCEL 打开 CSV 文件并计算七年的移动平均值：以七年为单位，计算每一年与前六年的平均温度的平均值。
 
-5.在决定如何将趋势可视化时，你考虑的关键是什么？
+5. 在决定如何将趋势可视化时，你考虑的关键是什么？
 
 将趋势可视化时，主要考虑图表是否能够很好的展示年份和温度移动平均值的趋势关系。
 
