@@ -37,6 +37,9 @@ AND c.city = 'Shanghai';
 
 ![image.png](https://upload-images.jianshu.io/upload_images/5392836-a4d5b55635708207.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+更改：
+
+![image.png](https://upload-images.jianshu.io/upload_images/5392836-5607f95c8ce66b10.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 全球所有年份的数据：
 
@@ -52,7 +55,7 @@ AND c.city = 'Shanghai';
 
 - 现在世界气温走势与过去几百年气温走势不同，过去几百年波动较大并且有下降趋势，现在气温波动不大，并且呈上升趋势。
 
-- 相关系数用Excel中的PEARSON函数计算，数据需要选择相同年份的数据，计算出相关系数r = 0.864，代表1847年到2013年，全球与上海年平均气温移动平均值正相关；
+- 相关系数用Excel中的PEARSON函数计算，数据需要选择相同年份的数据，计算出相关系数r = 0.864（更改: r = 0.709），代表1847年到2013年，全球与上海年平均气温移动平均值正相关；
 
 - 根据全球气温不能估算上海的平均气温，但是能估算气温趋势，趋势都是相似的；
 
