@@ -1,8 +1,8 @@
 **项目预览网址如下：**
 
-**试学项目 - 中国五个城市 PM2.5 数据分析：** https://wangweijian1995.github.io/Udacity-project/0.html
+**试学项目 - 中国五个城市 PM2.5 数据分析，试学课主要是走一遍数据分析师分析流程，建议七天课程，两天学完并通过项目：** https://wangweijian1995.github.io/Udacity-project/0.html
 
-试学课主要是走一遍数据分析师分析流程，建议七天课程，两天学完并通过项目。
+
 
 **项目一 - 探索未来气候发展趋势：** https://wangweijian1995.github.io/Udacity-project/1.html
 
