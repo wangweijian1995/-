@@ -1,13 +1,13 @@
 **项目及预览网址如下：**
 
-**试学项目 - 中国五个城市 PM2.5 数据分析：试学课主要是走一遍数据分析师分析流程，建议七天课程，两天学完并通过项目。** https://wangweijian1995.github.io/Udacity-project/0.html
+**试学项目（2.19-2.20） - 中国五个城市 PM2.5 数据中的两个城市进行分析：用 Python 对上海的五万余条 PM2.5 的观测数据及与之对应的降雨量进行清理筛选并可视化，用描述统计学进行分析，探索 PM2.5 是否受降雨量影响；对北京的五万余条 PM2.5 数据及风速进行类似分析。重点在数据的筛选观察和可视化分析，建议七天课程，两天学完并通过项目。** https://wangweijian1995.github.io/Udacity-project/0.html
 
-**项目一 - 探索未来气候发展趋势：简单的 SQL 语句查询及 Excel 计算移动平均值并可视化，因为之前在 W3Cschool 学过一些 SQL 知识，在正式课开课后的第二天就通过了项目一。** https://wangweijian1995.github.io/Udacity-project/1.html
+**项目一（3.27-3.28） - 探索未来气候发展趋势：用 SQL 语句查询提取数据和 Excel 计算 60 年的全球温度及上海温度数据的七年移动平均值，对比两个数据进行线图可视化分析，因为之前在 W3Cschool 学过一些 SQL 知识，在正式课开课后的第二天就通过了项目一。** https://wangweijian1995.github.io/Udacity-project/1.html
 
-**项目二预热 - 账号密码登陆：** https://wangweijian1995.github.io/Udacity-project/2-1.html
+**项目二预热（4.10-4.18） - 账号密码登陆：讲师出的一个 Python 脚本题，模拟用户登陆行为，因为逻辑清晰，在直播分享后被评为最佳学员。** https://wangweijian1995.github.io/Udacity-project/2-1.html
 
-**项目二 - 共享单车数据查询脚本：** https://wangweijian1995.github.io/Udacity-project/2-2.html
+**项目二（4.10-4.18） - 共享单车数据查询脚本：探索美国三大城市的 90W 条共享单车数据，可以根据用户输入查询某城市全部数据或某月某天数据，输出的数据包括使用单车最多的月份、星期几使用最多、一天中哪个小时使用最多、平均骑行时间、热门行程、用户类别、用户信息等，其中热门行程这一数据需要考虑全面些。** https://wangweijian1995.github.io/Udacity-project/2-2.html
 
-**项目三 - 调查电影数据和可视化：** https://wangweijian1995.github.io/Udacity-project/3.html
+**项目三（4.18-4.24） - 调查电影数据和可视化：根据近 60 年的一万条电影信息的数据，探索每年最受欢迎电影的类型有哪些，以及高票房的电影有哪些特点。用 Python 进行数据清洗和整理并可视化展示及分析，难点在于数据的清洗和整理步骤。** https://wangweijian1995.github.io/Udacity-project/3.html
 
-**项目四 - 电商网站 AB 测试：** https://wangweijian1995.github.io/Udacity-project/4.html
+**项目四（4.24-5.3） - 电商网站 A/B 测试：对三十万条电商网站数据的转化率进行 A/B 测试，并通过 A/B 测试结果，对网站的页面是否应该改变做出决策。分别用大数定理和中心极限定理进行假设检验模拟计算单尾检验 p 值，用逻辑回归计算双尾检验的 p 值，并计算添加城市因素后的双尾检验的 p 值，结果都显示页面不应该改变。可能需要继续监控数据，或者监控不同时间段的数据。** https://wangweijian1995.github.io/Udacity-project/4.html
